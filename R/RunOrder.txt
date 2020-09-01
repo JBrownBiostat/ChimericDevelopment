@@ -1,0 +1,14 @@
+R scripts are run in the following order to ensure the generation of appropriate dependant data files.
+
+It may be necessary to alter input/output paths in the code.
+
+FormatRawData.R
+NormalizeData.R
+RunTrendy.R
+ClassifyGenes.R
+goEnrichment.R
+PlotFigs.R
+HPA_Corr.R
+BrainSpanCorrelation.R
+BaseAutocorPlots.R
+AlignmentQC.R
